@@ -9,3 +9,12 @@ data/raw/*
 data/processed/*
 models/*
 .vscode/
+# Include final model and evaluation results
+!models/final/
+!models/final/**
+
+# Include SHAP explainability results
+!models/experiments/
+models/experiments/*
+!models/experiments/shap/
+!models/experiments/shap/**
